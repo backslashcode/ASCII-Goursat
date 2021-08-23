@@ -75,3 +75,7 @@ double goursat_intersect(vec3 ro, vec3 rd, double ka, double kb)
     if (t4 > 0.0) t = fmin(t, t4);
     return t;
 }
+/*
+* more shapes on
+* https://www.iquilezles.org/www/articles/intersectors/intersectors.htm
+*/
